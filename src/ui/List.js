@@ -9,7 +9,7 @@ const StyledList = styled.div`
   margin-top: 40px;
   & div {
     background-color: green;
-    border-radius: 20px;
+    border-radius: 25px;
   }
 `;
 

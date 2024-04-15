@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-const StyledApparel = styled.div`
+const StyledSubHeader = styled.div`
   height: 52px;
   width: 100%;
-  background: black;
+  background-color: ${(props) => props.bgColor};
   margin-top: 50px;
-  color: var(--primary-color);
+  color: ${(props) => props.txtColor};
 
   & > div {
     display: flex;
@@ -24,21 +24,21 @@ const StyledApparel = styled.div`
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: var(--secondary-color);
+    background-color: ${(props) => props.bgColor};
   }
 `;
 
-function Apparel() {
+function SubHeader({ text, icon, bgColor, txtColor }) {
   return (
-    <StyledApparel>
+    <StyledSubHeader bgColor={bgColor} txtColor={txtColor}>
       <div>
-        <span>apparel under 10k</span>
+        <span>{text}</span>
         <div className="image">
-          <img src=".././images/shopping-cart.png" alt="shopping-cart" />
+          <img src={`.././images/${icon}.png`} alt={`${icon}`} />
         </div>
       </div>
-    </StyledApparel>
+    </StyledSubHeader>
   );
 }
 
-export default Apparel;
+export default SubHeader;

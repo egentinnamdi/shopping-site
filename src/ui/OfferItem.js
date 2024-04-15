@@ -6,6 +6,7 @@ const StyledOffer = styled.div`
   border-radius: 25px;
   height: 113px;
   min-width: 320px;
+  position: relative;
 
   & span:nth-child(1) {
     font-size: 30px;
@@ -21,6 +22,13 @@ const StyledOffer = styled.div`
     line-height: 27.39px;
     text-transform: capitalize;
   }
+  .img {
+    height: 134px;
+    width: 134px;
+    position: absolute;
+    top: -45px;
+    left: 180px;
+  }
 `;
 function Offer({ color, textOne, textTwo }) {
   return (
@@ -28,6 +36,9 @@ function Offer({ color, textOne, textTwo }) {
       <span>{textOne}</span>
       <br />
       <span>{textTwo}</span>
+      <div className="img">
+        <img src={`.././images/${"headphone"}.png`} alt="headphone" />
+      </div>
     </StyledOffer>
   );
 }
