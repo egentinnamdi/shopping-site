@@ -1,5 +1,6 @@
 import CategoryList from "../features/CategoryList";
 import List from "./List";
+import ListItem from "./ListItem";
 import Offers from "./Offers";
 import SubHeader from "./SubHeader";
 
@@ -14,14 +15,24 @@ function Main() {
         bgColor="var(--secondary-color)"
         txtColor="var(--primary-color)"
       />
-      <List />
+      <List>
+        <ListItem />
+        <ListItem />
+        <ListItem />
+        <ListItem />
+      </List>
       <SubHeader
         text="home"
         icon="add"
         bgColor="var(--primary-color)"
         txtColor="var(--white)"
       />
-      <List />
+      <List>
+        <ListItem />
+        <ListItem />
+        <ListItem />
+        <ListItem />
+      </List>
     </>
   );
 }

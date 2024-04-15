@@ -3,25 +3,14 @@ import styled from "styled-components";
 const StyledList = styled.div`
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-  grid-template: 1fr 1fr/1fr 1fr;
-  gap: 1.2rem;
+  gap: 21px;
   height: 492px;
+  width: 100%;
   margin-top: 40px;
-  & div {
-    background-color: green;
-    border-radius: 25px;
-  }
 `;
 
-function List() {
-  return (
-    <StyledList>
-      <div>height</div>
-      <div>height</div>
-      <div>height</div>
-      <div>height</div>
-    </StyledList>
-  );
+function List({ children }) {
+  return <StyledList>{children}</StyledList>;
 }
 
 export default List;
