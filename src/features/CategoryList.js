@@ -41,7 +41,7 @@ function CategoryList() {
         <span>see more &gt;</span>
       </div>
       <Row>
-        <CategoryItem />
+      <CategoryItem />
         <CategoryItem />
         <CategoryItem />
         <CategoryItem />

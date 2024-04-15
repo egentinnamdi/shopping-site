@@ -5,8 +5,10 @@ const StyledListItem = styled.div`
   background-color: var(--primary-color);
   border-radius: 25px;
   position: relative;
+  justify-content: center;
   & img {
     width: 100%;
+    
   }
   & span {
     display: grid;
