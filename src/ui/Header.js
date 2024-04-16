@@ -8,7 +8,9 @@ function Header() {
   return (
     <StyledHeader>
       <Logo />
-      <Text />
+      <Text>
+        welcome back, <br /> ideas for your day
+      </Text>
     </StyledHeader>
   );
 }

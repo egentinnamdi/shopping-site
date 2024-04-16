@@ -8,10 +8,11 @@ const StyledText = styled.h1`
   font-family: "Montserrat", sans-serif;
 `;
 
-function Text() {
+function Text({ children }) {
   return (
     <StyledText>
-      welcome back, <br /> ideas for your day
+      {/* welcome back, <br /> ideas for your day */}
+      {children}
     </StyledText>
   );
 }

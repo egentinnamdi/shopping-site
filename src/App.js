@@ -1,7 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
-import Groceries from "./pages/Groceries";
+import Categories from "./pages/Categories";
 import GlobalStyle from "./style/GlobalStyle";
+import Groceries from "./features/Categories/Groceries";
+import Beauty from "./features/Categories/Beauty";
+import Fashion from "./features/Categories/Fashion";
+import Music from "./features/Categories/Music";
+import Travel from "./features/Categories/Travel";
+import Outdoor from "./features/Categories/Outdoor";
 function App() {
   return (
     <>
@@ -10,7 +16,15 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/groceries" element={<Groceries />} />
+          <Route path="/categories" element={<Categories />}>
+            <Route index element={<Navigate replace to="groceries" />} />
+            <Route path="groceries" element={<Groceries />} />
+            <Route path="beauty" element={<Beauty />} />
+            <Route path="fashion" element={<Fashion />} />
+            <Route path="music" element={<Music />} />
+            <Route path="travel" element={<Travel />} />
+            <Route path="outdoor" element={<Outdoor />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>

@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <StyledNav>
       <div className="navContainer">
-        <NavLink to="/groceries">
+        <NavLink to="/categories">
           <img src=".././images/Category.png" alt="category" />
         </NavLink>
         <NavLink to="/home">
