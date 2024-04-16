@@ -1,20 +1,19 @@
 import styled from "styled-components";
-import Text from "./Text";
+import Text from "../../ui/MultiPageFiles/Text";
 
 const StyledHeader = styled.header`
+  /* background: var(--primary-color); */
   margin-top: 50px;
   width: 100%;
   height: 90px;
 `;
 
-function CategoryHeader() {
+function GroceHeader() {
   return (
     <StyledHeader>
-      <Text>
-        find out what <br /> you want to have
-      </Text>
+      <Text />
     </StyledHeader>
   );
 }
 
-export default CategoryHeader;
+export default GroceHeader;

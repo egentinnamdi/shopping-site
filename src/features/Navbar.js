@@ -32,10 +32,10 @@ function Navbar() {
         </NavLink>
         <NavLink to="/home">
           <img src=".././images/Explore.png" alt="explore" />
-        </div>
-        <div>
+        </NavLink>
+        <NavLink>
           <img src=".././images/Profile.png" alt="profile" />
-        </div>
+        </NavLink>
       </div>
     </StyledNav>
   );

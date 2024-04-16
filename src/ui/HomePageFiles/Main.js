@@ -1,8 +1,8 @@
-import CategoryList from "../features/CategoryList";
+import CategoryList from "../../features/CategoryList";
 import List from "./List";
 import ListItem from "./ListItem";
-import Offers from "./Offers";
-import SubHeader from "./SubHeader";
+import Offers from "../Offers";
+import SubHeader from "../SubHeader";
 
 function Main() {
   return (
@@ -38,4 +38,3 @@ function Main() {
 }
 
 export default Main;
-

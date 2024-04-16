@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Logo from "./Logo";
-import Text from "./Text";
+import Text from "../MultiPageFiles/Text";
 
 const StyledHeader = styled.div``;
 

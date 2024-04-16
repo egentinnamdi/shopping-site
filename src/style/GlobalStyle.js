@@ -16,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
 body{
     padding: 20px;
 }
+/* .active{
+    color: green;
+    border: 5px solid #333;
+} */
 `;
 
 export default GlobalStyle;
