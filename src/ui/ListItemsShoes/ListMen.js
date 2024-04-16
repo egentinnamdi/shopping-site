@@ -28,17 +28,15 @@ const StyledListItem = styled.div`
   }
 `;
 
-function ListConsole() {
+function ListMen1() {
   return (
     <StyledListItem>
       <div>
-        <img src=".././images/Game/console.png" alt="console" />
-        
-        
-        <span>CONSOLE</span>
+        <img src=".././images/shoesU20k/men.png" alt="men" />
+        <span>MEN</span>
       </div>
     </StyledListItem>
   );
 }
 
-export default ListConsole;
+export default ListMen1;

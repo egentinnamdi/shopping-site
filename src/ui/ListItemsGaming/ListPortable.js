@@ -28,15 +28,16 @@ const StyledListItem = styled.div`
   }
 `;
 
-function ListBoys() {
+function ListPortable() {
   return (
     <StyledListItem>
       <div>
-        <img src=".././images/boys.png" alt="men" />
+      <img src=".././images/Game/portable.png" alt="Portable" />
+       
         <span>PORTABLE</span>
       </div>
     </StyledListItem>
   );
 }
 
-export default ListBoys;
+export default ListPortable;

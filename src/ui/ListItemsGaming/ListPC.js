@@ -28,15 +28,16 @@ const StyledListItem = styled.div`
   }
 `;
 
-function ListBoys() {
+function ListPC() {
   return (
     <StyledListItem>
       <div>
-        <img src=".././images/boys.png" alt="men" />
-        <span>PC 2</span>
+      <img src=".././images/Game/smart-home.png" alt="smart-home" />
+        
+        <span>PC </span>
       </div>
     </StyledListItem>
   );
 }
 
-export default ListBoys;
+export default ListPC;

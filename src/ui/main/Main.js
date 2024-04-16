@@ -1,40 +1,36 @@
 import CategoryList from "../../features/CategoryList";
 import List from "../List";
-// Apparel under 10k
-import ListMen from "../ListItemsApparel/ListMen";
-import ListWomen from "../ListItemsApparel/ListWomen";
-import ListGirls from "../ListItemsApparel/ListGirls";
-import ListBoys from "../ListItemsApparel/ListBoys";
-// home
-import ListKitchen from "../ListItemsHome/ListKitchen";
-import ListSmartHome from "../ListItemsHome/ListSmartHome"
-import ListLivingRoom from "../ListItemsHome/ListLivingRoom";
-import ListHomeDecor from "../ListItemsHome/ListHomeDecor";
-//gaming
-import ListConsole from "../ListItemsGaming/ListConsole";
-import ListPC from "../ListItemsGaming/ListPC";
-import ListPortable from "../ListItemsGaming/ListPortable";
-import ListGames from "../ListItemsGaming/ListGames";
-//electronics
-import ListElectronics1 from "../ListElectronics/ListElectronics1";
-import ListElectronics2 from "../ListElectronics/ListElectronics2";
-//premium
-import ListPremium from "../ListItemsPremium/ListPremium";
-import ListPremium1 from "../ListItemsPremium/ListPremium1";
-import ListPremium2 from "../ListItemsPremium/ListPremium2";
-// best deals 
-import ListBestdeal1 from "../ListItemsBestDeals/ListBestDeals1";
-import ListBestdeal2 from "../ListItemsBestDeals/ListBestDeals2";
-import ListBestdeal3 from "../ListItemsBestDeals/ListBestDeals3";
-//energy 
-import ListEnergy1 from "../ListItemsEnergy/ListEnergy1";
-import ListEnergy2 from "../ListItemsEnergy/ListEnergy2";
-
- 
 
 import Offers from "../Offers";
 import SubHeader from "../SubHeader";
-
+import {
+  ListBestdeal1,
+  ListBestdeal2,
+  ListBestdeal3,
+  ListBoys,
+  ListBoys1,
+  ListConsole,
+  ListElectronics1,
+  ListElectronics2,
+  ListEnergy1,
+  ListEnergy2,
+  ListGames,
+  ListGirls,
+  ListGirls1,
+  ListHomeDecor,
+  ListKitchen,
+  ListLivingRoom,
+  ListMen,
+  ListMen1,
+  ListPC,
+  ListPortable,
+  ListPremium,
+  ListPremium1,
+  ListPremium2,
+  ListSmartHome,
+  ListWomen,
+  ListWomen1,
+} from "./MainImports";
 function Main() {
   return (
     <>
@@ -75,7 +71,7 @@ function Main() {
         txtColor="var(--white)"
       />
       <List>
-        <ListPremium/>
+        <ListPremium />
         <ListPremium1 />
         <ListPremium2 />
       </List>
@@ -87,10 +83,10 @@ function Main() {
         txtColor="var(--white)"
       />
       <List>
-        <ListWomen />
-        <ListMen />
-        <ListBoys />
-        <ListGirls />
+        <ListWomen1 />
+        <ListMen1 />
+        <ListBoys1 />
+        <ListGirls1 />
       </List>
 
       {/*gaming */}
@@ -119,7 +115,6 @@ function Main() {
         <ListBestdeal1 />
         <ListBestdeal2 />
         <ListBestdeal3 />
-
       </List>
 
       {/* Phones and Accessories  */}
@@ -134,7 +129,6 @@ function Main() {
         <ListBestdeal1 />
         <ListBestdeal2 />
         <ListBestdeal3 />
-
       </List>
 
       {/* Energy  */}
@@ -159,11 +153,8 @@ function Main() {
       <List>
         <ListElectronics1 />
         <ListElectronics2 />
-
       </List>
     </>
-
-
   );
 }
 
