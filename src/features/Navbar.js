@@ -32,9 +32,7 @@ function Navbar() {
         <div>
           <img src=".././images/Explore.png" alt="explore" />
         </div>
-        <div>
-          <img src=".././images/Profile.png" alt="profile" />
-        </div>
+        
       </div>
     </StyledNav>
   );

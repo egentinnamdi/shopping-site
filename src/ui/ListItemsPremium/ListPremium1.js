@@ -28,15 +28,15 @@ const StyledListItem = styled.div`
   }
 `;
 
-function ListItem() {
+function ListPremium1() {
   return (
     <StyledListItem>
       <div>
-        <img src=".././images/men.png" alt="men" />
-        <span>men</span>
+        <img src=".././images/boys.png" alt="men" />
+        <span>PREMIUM 1</span>
       </div>
     </StyledListItem>
   );
 }
 
-export default ListItem;
+export default ListPremium1;
