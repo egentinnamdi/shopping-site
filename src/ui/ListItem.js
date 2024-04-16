@@ -5,8 +5,18 @@ const StyledListItem = styled.div`
   background-color: var(--primary-color);
   border-radius: 25px;
   position: relative;
+  justify-content: center;
   & img {
     width: 100%;
+  }
+  & img:nth-child(2) {
+    border-radius: 50%;
+    width: 29.88px;
+    height: 27.91px;
+    position: absolute;
+    top: 7%;
+    left: 75%;
+    z-index: 1;
   }
   & span {
     display: grid;
@@ -26,12 +36,13 @@ const StyledListItem = styled.div`
   }
 `;
 
-function ListItem() {
+function ListItem({ text }) {
   return (
     <StyledListItem>
       <div>
-        <img src=".././images/men.png" alt="men" />
-        <span>men</span>
+        <img cl src={`.././images/${text}.png`} alt={`${text}`} />
+        <img src=".././images/cart.png" alt="cart" />
+        <span>{text}</span>
       </div>
     </StyledListItem>
   );

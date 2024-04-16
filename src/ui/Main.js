@@ -16,10 +16,10 @@ function Main() {
         txtColor="var(--primary-color)"
       />
       <List>
-        <ListItem />
-        <ListItem />
-        <ListItem />
-        <ListItem />
+        <ListItem text="men" />
+        <ListItem text="women" />
+        <ListItem text="girls" />
+        <ListItem text="boys" />
       </List>
       <SubHeader
         text="home"
@@ -28,10 +28,10 @@ function Main() {
         txtColor="var(--white)"
       />
       <List>
-        <ListItem />
-        <ListItem />
-        <ListItem />
-        <ListItem />
+        <ListItem text="men" />
+        <ListItem text="women" />
+        <ListItem text="girls" />
+        <ListItem text="boys" />
       </List>
     </>
   );

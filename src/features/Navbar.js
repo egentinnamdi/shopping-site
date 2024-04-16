@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledNav = styled.div`
@@ -26,12 +27,12 @@ function Navbar() {
   return (
     <StyledNav>
       <div className="navContainer">
-        <div>
+        <NavLink to="/groceries">
           <img src=".././images/Category.png" alt="category" />
-        </div>
-        <div>
+        </NavLink>
+        <NavLink to="/home">
           <img src=".././images/Explore.png" alt="explore" />
-        </div>
+        </NavLink>
         <div>
           <img src=".././images/Profile.png" alt="profile" />
         </div>
