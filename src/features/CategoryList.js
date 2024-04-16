@@ -1,5 +1,9 @@
 import styled from "styled-components";
-import CategoryItem from "./CategoryItem";
+import CategoryHome from "./CategoryHome";
+import CategoryFashion from "./categoryFashion";
+import CategoryBeauty from "./categoryBeauty";
+import CategoryH_W from "./categoryH&W";
+import CategoryElectronics from "./categoryElectronics";
 
 const StyledCatList = styled.div`
   margin-top: 40px;
@@ -41,12 +45,12 @@ function CategoryList() {
         <span>see more &gt;</span>
       </div>
       <Row>
-      <CategoryItem />
-        <CategoryItem />
-        <CategoryItem />
-        <CategoryItem />
-        <CategoryItem />
-        <CategoryItem />
+      <CategoryHome />
+        <CategoryFashion />
+        <CategoryH_W />
+        <CategoryElectronics />
+        <CategoryBeauty />
+        
       </Row>
     </StyledCatList>
   );
