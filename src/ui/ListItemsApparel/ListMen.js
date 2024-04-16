@@ -32,7 +32,7 @@ function ListMen() {
   return (
     <StyledListItem>
       <div>
-        <img src=".././images/shoesU20k/men.png" alt="men" />
+        <img src=".././images/AparelUnder20k/men.png" alt="men" />
         <span>MEN</span>
       </div>
     </StyledListItem>
