@@ -40,18 +40,18 @@ const StyledCatItem = styled.div`
   }
 `;
 
-function CategoryItem() {
+function CategoryElectronics() {
   return (
     <StyledCatItem>
       <div className="catImg">
         <img src=".././images/home.png" alt="home" />
       </div>
       <div className="catText">
-        <span>home</span>
+        <span>Electronics</span>
         <span>21 suggested items</span>
       </div>
     </StyledCatItem>
   );
 }
 
-export default CategoryItem;
+export default CategoryElectronics;

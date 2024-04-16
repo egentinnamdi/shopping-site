@@ -32,7 +32,7 @@ function Navbar() {
         </NavLink>
         <NavLink to="/home">
           <img src=".././images/Explore.png" alt="explore" />
-        </NavLink>
+        </div>
         <div>
           <img src=".././images/Profile.png" alt="profile" />
         </div>

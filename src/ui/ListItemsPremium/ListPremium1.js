@@ -8,15 +8,7 @@ const StyledListItem = styled.div`
   justify-content: center;
   & img {
     width: 100%;
-  }
-  & img:nth-child(2) {
-    border-radius: 50%;
-    width: 29.88px;
-    height: 27.91px;
-    position: absolute;
-    top: 7%;
-    left: 75%;
-    z-index: 1;
+    
   }
   & span {
     display: grid;
@@ -36,16 +28,15 @@ const StyledListItem = styled.div`
   }
 `;
 
-function ListItem({ text }) {
+function ListPremium1() {
   return (
     <StyledListItem>
       <div>
-        <img cl src={`.././images/${text}.png`} alt={`${text}`} />
-        <img src=".././images/cart.png" alt="cart" />
-        <span>{text}</span>
+        <img src=".././images/boys.png" alt="men" />
+        <span>PREMIUM 1</span>
       </div>
     </StyledListItem>
   );
 }
 
-export default ListItem;
+export default ListPremium1;
