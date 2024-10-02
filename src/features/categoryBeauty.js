@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+// import image1 from ".././images/home.png"
 const StyledCatItem = styled.div`
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ function CategoryBeauty() {
   return (
     <StyledCatItem>
       <div className="catImg">
-        <img src=".././images/" alt="home" />
+        <img src=".././images/home.png" alt="home" />
       </div>
       <div className="catText">
         <span>Beauty</span>

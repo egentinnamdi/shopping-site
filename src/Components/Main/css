@@ -1,0 +1,5575 @@
+/* 08_Product Detail */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+
+
+position: relative;
+
+width: 1920px;
+
+height: 2504px;
+
+
+
+background: #FFFFFF;
+
+
+
+
+
+/* Navigation */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+
+
+width: 1920px;
+
+height: 300px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Widget */
+
+
+
+width: 1920px;
+
+height: 80px;
+
+
+
+background: #000000;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Discount */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 8px;
+
+
+
+position: absolute;
+
+left: 45.31%;
+
+right: 45.31%;
+
+top: 20%;
+
+bottom: 20%;
+
+
+
+
+
+
+
+/* Up to */
+
+
+
+width: 35px;
+
+height: 20px;
+
+
+
+/* Body/Small/500 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/00 */
+
+color: #FFFFFF;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* 59% */
+
+
+
+width: 89px;
+
+height: 48px;
+
+
+
+/* Display/04 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 600;
+
+font-size: 40px;
+
+line-height: 48px;
+
+/* identical to box height, or 120% */
+
+
+
+color: #00A218;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* OFF */
+
+
+
+width: 40px;
+
+height: 28px;
+
+
+
+/* Body/XL/600 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 600;
+
+font-size: 20px;
+
+line-height: 28px;
+
+/* identical to box height, or 140% */
+
+
+
+/* Gray/00 */
+
+color: #FFFFFF;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Button */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px 24px;
+
+gap: 8px;
+
+
+
+position: absolute;
+
+left: 76.28%;
+
+right: 15.6%;
+
+top: 20%;
+
+bottom: 20%;
+
+
+
+background: #00A218;
+
+border-radius: 2px;
+
+
+
+
+
+/* Label */
+
+
+
+width: 80px;
+
+height: 48px;
+
+
+
+/* Heading/07 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 700;
+
+font-size: 14px;
+
+line-height: 48px;
+
+/* identical to box height, or 343% */
+
+letter-spacing: 0.012em;
+
+text-transform: uppercase;
+
+
+
+color: #000000;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/ArrowRight */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 12.5%;
+
+top: 46.88%;
+
+bottom: 46.88%;
+
+
+
+background: #000000;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 53.12%;
+
+right: 12.5%;
+
+top: 18.75%;
+
+bottom: 18.75%;
+
+
+
+background: #000000;
+
+
+
+
+
+/* Close Button */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 8px;
+
+gap: 10px;
+
+
+
+position: absolute;
+
+left: 97.08%;
+
+right: 1.25%;
+
+top: 30%;
+
+bottom: 30%;
+
+
+
+/* Gray/800 */
+
+background: #303639;
+
+border-radius: 2px;
+
+
+
+
+
+/* Duotone/X */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 21.88%;
+
+right: 21.88%;
+
+top: 21.88%;
+
+bottom: 21.88%;
+
+
+
+/* Gray/00 */
+
+background: #FFFFFF;
+
+/* Gray/00 */
+
+border: 1.5px solid #FFFFFF;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 21.88%;
+
+right: 21.88%;
+
+top: 21.88%;
+
+bottom: 21.88%;
+
+
+
+/* Gray/00 */
+
+background: #FFFFFF;
+
+/* Gray/00 */
+
+border: 1.5px solid #FFFFFF;
+
+
+
+
+
+/* Navigation */
+
+
+
+width: 1920px;
+
+height: 220px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Top Nav */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 12px 300px;
+
+gap: 607px;
+
+
+
+position: absolute;
+
+width: 1920px;
+
+height: 52px;
+
+left: 0px;
+
+top: 0px;
+
+
+
+background: #FFFFFF;
+
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.16);
+
+
+
+
+
+/* Left Content */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 24px;
+
+
+
+margin: 0 auto;
+
+width: 396px;
+
+height: 28px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Follow us */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 12px;
+
+
+
+width: 233px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Follow us: */
+
+
+
+width: 65px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+color: #FFFFFF;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Social Icon */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 12px;
+
+
+
+width: 156px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Twitter */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 9.32%;
+
+bottom: 9.36%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Facebook */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 32.01%;
+
+right: 31.15%;
+
+top: 21.51%;
+
+bottom: 0%;
+
+
+
+background: #FFFFFF;
+
+
+
+
+
+/* Pinterest */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 10%;
+
+right: 12.19%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+background: #FFFFFF;
+
+
+
+
+
+/* Reddit */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 3;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 16.75%;
+
+right: 16.65%;
+
+top: 19.96%;
+
+bottom: 20.85%;
+
+
+
+background: #FFFFFF;
+
+
+
+
+
+/* Youtube */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 4;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0.01%;
+
+right: 0.01%;
+
+top: 0.03%;
+
+bottom: 0.15%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0.08%;
+
+right: 0.08%;
+
+top: 15.44%;
+
+bottom: 15.52%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Instagram */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 5;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 5%;
+
+right: 5%;
+
+top: 5%;
+
+bottom: 5%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Line 1 */
+
+
+
+width: 28px;
+
+height: 0px;
+
+
+
+opacity: 0.16;
+
+border: 1px solid #FFFFFF;
+
+transform: rotate(90deg);
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Multi-Language/Drodpwon */
+
+
+
+width: 44px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Dropdown */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Eng */
+
+
+
+width: 26px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+color: #FFFFFF;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretDown */
+
+
+
+width: 12px;
+
+height: 12px;
+
+
+
+opacity: 0.5;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 15.62%;
+
+right: 15.62%;
+
+top: 34.38%;
+
+bottom: 28.12%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Multi-Currency/Dropdown */
+
+
+
+width: 47px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 3;
+
+flex-grow: 0;
+
+
+
+
+
+/* Dropdown */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+position: absolute;
+
+left: -3.19%;
+
+right: -3.19%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* USD */
+
+
+
+width: 32px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+color: #00A218;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretDown */
+
+
+
+width: 12px;
+
+height: 12px;
+
+
+
+opacity: 0.5;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 15.62%;
+
+right: 15.62%;
+
+top: 34.38%;
+
+bottom: 28.12%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Middle Nav */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+padding: 0px 152px;
+
+gap: 211px;
+
+
+
+position: absolute;
+
+width: 1748px;
+
+height: 101px;
+
+left: 0px;
+
+top: 52px;
+
+
+
+background: #FFFFFF;
+
+
+
+
+
+/* BUNQ WHITE 1 */
+
+
+
+width: 232px;
+
+height: 101px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* BUNQ WHITE 1 */
+
+
+
+position: absolute;
+
+left: -11.76%;
+
+right: -35.71%;
+
+top: 18.81%;
+
+bottom: 17.82%;
+
+
+
+background: url(bunka whi.png);
+
+
+
+
+
+/* Frame 18 */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 14px 20px;
+
+gap: 8px;
+
+
+
+width: 646px;
+
+height: 48px;
+
+
+
+/* Gray/00 */
+
+background: #FFFFFF;
+
+box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Search for anything... */
+
+
+
+width: 578px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+color: #00A218;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/MagnifyingGlass */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 21.88%;
+
+top: 12.5%;
+
+bottom: 21.88%;
+
+
+
+/* Gray/900 */
+
+border: 1.5px solid #191C1F;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 68.52%;
+
+right: 12.5%;
+
+top: 68.52%;
+
+bottom: 12.5%;
+
+
+
+/* Gray/900 */
+
+border: 1.5px solid #191C1F;
+
+
+
+
+
+/* Icons */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 24px;
+
+
+
+width: 144px;
+
+height: 32px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* ShoppingCartSimple */
+
+
+
+width: 32px;
+
+height: 32px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 25%;
+
+right: 62.5%;
+
+top: 78.12%;
+
+bottom: 9.38%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 65.62%;
+
+right: 21.88%;
+
+top: 78.12%;
+
+bottom: 9.38%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 3.12%;
+
+right: 13.4%;
+
+top: 12.5%;
+
+bottom: 31.25%;
+
+
+
+border: 2px solid #00A218;
+
+
+
+
+
+/* Frame 18 */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 2px 0px;
+
+gap: 10px;
+
+
+
+position: absolute;
+
+width: 20px;
+
+height: 20px;
+
+right: -4px;
+
+top: -4px;
+
+
+
+background: #FFFFFF;
+
+border: 1.5px solid #00A218;
+
+border-radius: 100px;
+
+
+
+
+
+/* 2 */
+
+
+
+width: 20px;
+
+height: 16px;
+
+
+
+/* Body/Tiny/600 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 600;
+
+font-size: 12px;
+
+line-height: 16px;
+
+/* identical to box height, or 133% */
+
+text-align: center;
+
+
+
+color: #00A218;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Heart */
+
+
+
+width: 32px;
+
+height: 32px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 10.94%;
+
+right: 10.94%;
+
+top: 15.62%;
+
+bottom: 15.62%;
+
+
+
+border: 2px solid #00A218;
+
+
+
+
+
+/* Regular/User */
+
+
+
+width: 32px;
+
+height: 32px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 25%;
+
+right: 25%;
+
+top: 12.5%;
+
+bottom: 37.5%;
+
+
+
+border: 2px solid #00A218;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 12.11%;
+
+right: 12.11%;
+
+top: 62.5%;
+
+bottom: 15.62%;
+
+
+
+border: 2px solid #00A218;
+
+
+
+
+
+/* Bottom Nav */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 16px 300px;
+
+gap: 554px;
+
+
+
+position: absolute;
+
+width: 1920px;
+
+height: 80px;
+
+left: 0px;
+
+top: 140px;
+
+
+
+/* Gray/00 */
+
+background: #FFFFFF;
+
+box-shadow: inset 0px -1px 0px #E4E7E9;
+
+
+
+
+
+/* Left Side */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 24px;
+
+
+
+margin: 0 auto;
+
+width: 695px;
+
+height: 48px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Category */
+
+
+
+width: 154px;
+
+height: 48px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Button */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 14px 24px;
+
+gap: 8px;
+
+
+
+position: absolute;
+
+width: 154px;
+
+height: 48px;
+
+left: 0px;
+
+top: 0px;
+
+
+
+/* Gray/50 */
+
+background: #F2F4F5;
+
+border-radius: 2px;
+
+
+
+
+
+/* Label */
+
+
+
+width: 82px;
+
+height: 20px;
+
+
+
+/* Body/Small/500 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/900 */
+
+color: #191C1F;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretDown */
+
+
+
+width: 16px;
+
+height: 16px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 15.62%;
+
+right: 15.62%;
+
+top: 34.38%;
+
+bottom: 28.12%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Track Order */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+width: 107px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/MapPinLine */
+
+
+
+width: 24px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 21.88%;
+
+right: 21.88%;
+
+top: 90.62%;
+
+bottom: 9.38%;
+
+
+
+/* Gray/600 */
+
+background: #5F6C72;
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 18.75%;
+
+right: 18.75%;
+
+top: 9.38%;
+
+bottom: 9.38%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 37.5%;
+
+right: 37.5%;
+
+top: 28.12%;
+
+bottom: 46.88%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Track Order */
+
+
+
+width: 77px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Compare */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+width: 89px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Duotone/ArrowsCounterClockwise */
+
+
+
+width: 24px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 12.42%;
+
+right: 68.83%;
+
+top: 20.19%;
+
+bottom: 61.06%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 12.42%;
+
+right: 25.7%;
+
+top: 15.63%;
+
+bottom: 61.05%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 68.83%;
+
+right: 12.42%;
+
+top: 61.06%;
+
+bottom: 20.19%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 25.7%;
+
+right: 12.42%;
+
+top: 61.06%;
+
+bottom: 15.63%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Compare */
+
+
+
+width: 59px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Customer Support */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+width: 150px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 3;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/Headphones */
+
+
+
+width: 24px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 11.91%;
+
+top: 15.62%;
+
+bottom: 18.75%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Customer Support */
+
+
+
+width: 120px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Need Help */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+width: 99px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 4;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/Info */
+
+
+
+width: 24px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 12.5%;
+
+top: 12.5%;
+
+bottom: 12.5%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 46.88%;
+
+right: 46.88%;
+
+top: 46.88%;
+
+bottom: 31.25%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Vector */
+
+
+
+box-sizing: border-box;
+
+
+
+position: absolute;
+
+left: 44.53%;
+
+right: 46.09%;
+
+top: 28.12%;
+
+bottom: 62.5%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Need Help */
+
+
+
+width: 69px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Call Now */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 8px;
+
+
+
+margin: 0 auto;
+
+width: 182px;
+
+height: 28px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/PhoneCall */
+
+
+
+width: 28px;
+
+height: 28px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 62.27%;
+
+right: 15.63%;
+
+top: 15.62%;
+
+bottom: 62.27%;
+
+
+
+/* Gray/900 */
+
+border: 1.5px solid #191C1F;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 59.02%;
+
+right: 27.7%;
+
+top: 27.7%;
+
+bottom: 59.02%;
+
+
+
+/* Gray/900 */
+
+border: 1.5px solid #191C1F;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 15.62%;
+
+right: 12.63%;
+
+top: 12.63%;
+
+bottom: 15.62%;
+
+
+
+/* Gray/900 */
+
+border: 1.5px solid #191C1F;
+
+
+
+
+
+/* +1-202-555-0104 */
+
+
+
+width: 146px;
+
+height: 24px;
+
+
+
+/* Body/Large/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 18px;
+
+line-height: 24px;
+
+/* identical to box height, or 133% */
+
+
+
+/* Gray/900 */
+
+color: #191C1F;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Breadcrumb */
+
+
+
+width: 1920px;
+
+height: 72px;
+
+
+
+/* Gray/50 */
+
+background: #F2F4F5;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Breadcumb */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px;
+
+gap: 8px;
+
+
+
+position: absolute;
+
+width: 491px;
+
+height: 20px;
+
+left: 300px;
+
+top: calc(50% - 20px/2);
+
+
+
+
+
+
+
+/* Regular/House */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 15.62%;
+
+right: 15.62%;
+
+top: 13.59%;
+
+bottom: 15.63%;
+
+
+
+/* Gray/600 */
+
+border: 1.5px solid #5F6C72;
+
+
+
+
+
+/* Home */
+
+
+
+width: 39px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 34.38%;
+
+right: 28.12%;
+
+top: 15.62%;
+
+bottom: 15.62%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Shop */
+
+
+
+width: 34px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 3;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 4;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 34.38%;
+
+right: 28.12%;
+
+top: 15.62%;
+
+bottom: 15.62%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Shop Grid */
+
+
+
+width: 65px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 5;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 6;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 34.38%;
+
+right: 28.12%;
+
+top: 15.62%;
+
+bottom: 15.62%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Shop Grid */
+
+
+
+width: 127px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 7;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 8;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 34.38%;
+
+right: 28.12%;
+
+top: 15.62%;
+
+bottom: 15.62%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Shop Grid */
+
+
+
+display: none;
+
+width: 65px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 9;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+display: none;
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 10;
+
+flex-grow: 0;
+
+
+
+
+
+/* Shop Grid */
+
+
+
+display: none;
+
+width: 65px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 11;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+display: none;
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 12;
+
+flex-grow: 0;
+
+
+
+
+
+/* Shop Grid */
+
+
+
+display: none;
+
+width: 65px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 13;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/CaretRight */
+
+
+
+display: none;
+
+width: 12px;
+
+height: 12px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 14;
+
+flex-grow: 0;
+
+
+
+
+
+/* Behicle & Accessories */
+
+
+
+width: 86px;
+
+height: 20px;
+
+
+
+/* Body/Small/500 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+color: #00A218;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 15;
+
+flex-grow: 0;
+
+
+
+
+
+/* Product Detail */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 32px 0px 72px;
+
+gap: 56px;
+
+
+
+width: 1320px;
+
+height: 778px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Product Preview */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 24px;
+
+
+
+width: 616px;
+
+height: 584px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Main Image */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 616px;
+
+height: 464px;
+
+
+
+background: url(image.png);
+
+/* Gray/100 */
+
+border: 1px solid #E4E7E9;
+
+border-radius: 4px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Images */
+
+
+
+width: 616px;
+
+height: 96px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Photo */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 8px;
+
+
+
+position: absolute;
+
+width: 616px;
+
+height: 96px;
+
+left: 0px;
+
+top: 0px;
+
+
+
+
+
+
+
+/* 01 */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 96px;
+
+height: 96px;
+
+
+
+background: url(image.png);
+
+border: 2px solid #00A218;
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* 05 */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 96px;
+
+height: 96px;
+
+
+
+background: url(image);
+
+/* Gray/100 */
+
+border: 1px solid #E4E7E9;
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* 03 */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 96px;
+
+height: 96px;
+
+
+
+background: url(image);
+
+/* Gray/100 */
+
+border: 1px solid #E4E7E9;
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* 04 */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 96px;
+
+height: 96px;
+
+
+
+background: url(image.png), #FAFAFA;
+
+/* Gray/100 */
+
+border: 1px solid #E4E7E9;
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 3;
+
+flex-grow: 0;
+
+
+
+
+
+/* 02 */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 96px;
+
+height: 96px;
+
+
+
+background: url(image);
+
+/* Gray/100 */
+
+border: 1px solid #E4E7E9;
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 4;
+
+flex-grow: 0;
+
+
+
+
+
+/* 06 */
+
+
+
+box-sizing: border-box;
+
+
+
+width: 96px;
+
+height: 96px;
+
+
+
+background: url(image);
+
+/* Gray/100 */
+
+border: 1px solid #E4E7E9;
+
+border-radius: 2px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 5;
+
+flex-grow: 0;
+
+
+
+
+
+/* Arrow */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 568px;
+
+
+
+position: absolute;
+
+width: 664px;
+
+height: 48px;
+
+left: -24px;
+
+top: 24px;
+
+
+
+
+
+
+
+/* Arrow Button */
+
+
+
+box-sizing: border-box;
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 12px;
+
+gap: 10px;
+
+
+
+width: 48px;
+
+height: 48px;
+
+
+
+background: #00A218;
+
+/* Gray/00 */
+
+border: 2px solid #FFFFFF;
+
+border-radius: 100px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/ArrowLeft */
+
+
+
+width: 24px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 12.5%;
+
+top: 46.88%;
+
+bottom: 46.88%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 53.12%;
+
+top: 18.75%;
+
+bottom: 18.75%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Arrow Button */
+
+
+
+box-sizing: border-box;
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 12px;
+
+gap: 10px;
+
+
+
+width: 48px;
+
+height: 48px;
+
+
+
+background: #00A218;
+
+/* Gray/00 */
+
+border: 2px solid #FFFFFF;
+
+border-radius: 100px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/ArrowRight */
+
+
+
+width: 24px;
+
+height: 24px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 12.5%;
+
+right: 12.5%;
+
+top: 46.88%;
+
+bottom: 46.88%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Vector (Stroke) */
+
+
+
+position: absolute;
+
+left: 53.12%;
+
+right: 12.5%;
+
+top: 18.75%;
+
+bottom: 18.75%;
+
+
+
+/* Gray/900 */
+
+background: #191C1F;
+
+
+
+
+
+/* Product Detail */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 24px;
+
+
+
+width: 648px;
+
+height: 674px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Product Content */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 16px;
+
+
+
+width: 648px;
+
+height: 148px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Heading */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 8px;
+
+
+
+width: 648px;
+
+height: 84px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Stars */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 6px;
+
+
+
+width: 366px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Star */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 2px;
+
+
+
+width: 108px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Regular/Star */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 9.37%;
+
+right: 9.37%;
+
+top: 9.35%;
+
+bottom: 12.49%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Regular/Star */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 9.37%;
+
+right: 9.37%;
+
+top: 9.35%;
+
+bottom: 12.49%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Regular/Star */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 9.37%;
+
+right: 9.37%;
+
+top: 9.35%;
+
+bottom: 12.49%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Regular/Star */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 3;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 9.37%;
+
+right: 9.37%;
+
+top: 9.35%;
+
+bottom: 12.49%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* Regular/Star */
+
+
+
+width: 20px;
+
+height: 20px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 4;
+
+flex-grow: 0;
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 0%;
+
+right: 0%;
+
+top: 0%;
+
+bottom: 0%;
+
+
+
+
+
+
+
+/* Vector */
+
+
+
+position: absolute;
+
+left: 9.37%;
+
+right: 9.37%;
+
+top: 9.35%;
+
+bottom: 12.49%;
+
+
+
+background: #00A218;
+
+
+
+
+
+/* 4.7 Star Rating */
+
+
+
+width: 99px;
+
+height: 20px;
+
+
+
+/* Body/Small/600 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 600;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/900 */
+
+color: #191C1F;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* (21,671 User feedback) */
+
+
+
+width: 147px;
+
+height: 20px;
+
+
+
+/* Body/Small/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 2;
+
+flex-grow: 0;
+
+
+
+
+
+/* 2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray */
+
+
+
+width: 648px;
+
+height: 56px;
+
+
+
+/* Body/XL/400 */
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 20px;
+
+line-height: 28px;
+
+/* or 140% */
+
+
+
+/* Gray/900 */
+
+color: #191C1F;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Fun-Fact */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 8px;
+
+
+
+width: 648px;
+
+height: 48px;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 1;
+
+flex-grow: 0;
+
+
+
+
+
+/* Row */
+
+
+
+/* Auto layout */
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 24px;
+
+width: 648px;
+
+height: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-grow: 0;
+
+
+
+
+
+/* Sku: A264671 */
+
+
+
+width: 312px;
+
+height: 20px;
+
+
+
+font-family: 'Public Sans';
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+
+
+/* Gray/600 */
+
+color: #5F6C72;
+
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+
+order: 0;
+
+flex-gr
