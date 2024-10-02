@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import CategorySearchBar from '../../ui/CategorySearchBar';
+import CategorySearchBar from "../../ui/CategorySearchBar";
+import React, { useState } from "react";
+import styled from "styled-components";
 
 const StyledListItem = styled.div``
 
@@ -11,14 +11,15 @@ const Kitchen = ({onSearch}) => {
         onSearch(searchTerm)
     }
   return (
-    
-    <div>   
+
+    <div>
     <>
-      
+
          <CategorySearchBar/>
          <br/><br/><br/><br/><br/><br/><br/>
+
     </>
-    
+
     </div>
   )
 }
