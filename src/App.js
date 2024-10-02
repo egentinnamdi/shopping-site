@@ -9,6 +9,7 @@ import Fashion from "./features/Categories/Fashion";
 import Music from "./features/Categories/Music";
 import Travel from "./features/Categories/Travel";
 import Outdoor from "./features/Categories/Outdoor";
+import PageNotFound from "./pages/PageNotFound";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
             <Route path="travel" element={<Travel />} />
             <Route path="outdoor" element={<Outdoor />} />
           </Route>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </>

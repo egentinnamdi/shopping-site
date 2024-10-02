@@ -33,9 +33,13 @@ function Navbar() {
         <NavLink to="/home">
           <img src=".././images/Explore.png" alt="explore" />
         </NavLink>
+<<<<<<< HEAD
         <div>
+=======
+        <NavLink>
+>>>>>>> e57499b5b8a658f5af3e61d6e4ef56f73457d394
           <img src=".././images/Profile.png" alt="profile" />
-        </div>
+        </NavLink>
       </div>
     </StyledNav>
   );

@@ -15,13 +15,12 @@ const StyledSearch = styled.input`
   border-radius: 15px;
   outline: none;
   border: 2px solid var(--primary-color);
+  padding-left: 46px;
 
   &::placeholder {
     font-weight: 400;
     line-height: 27.39px;
     font-size: 16px;
-    padding: 10px;
-    transform: translate(46px, 1px);
   }
 `;
 

@@ -1,9 +1,9 @@
 import Navbar from "../features/Navbar";
 import styled from "styled-components";
-import Menu from "../ui/Menu";
+import Menu from "../ui/CategoryPageFiles/Menu";
 import { Outlet } from "react-router-dom";
-import CategoryHeader from "../ui/CategoryHeader";
-import CategorySearchBar from "../ui/CategorySearchBar";
+import CategoryHeader from "../ui/CategoryPageFiles/CategoryHeader";
+import CategorySearchBar from "../ui/CategoryPageFiles/CategorySearchBar";
 
 const StyledCategories = styled.div``;
 

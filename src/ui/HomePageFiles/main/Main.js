@@ -1,8 +1,8 @@
 import CategoryList from "../../features/CategoryList";
-import List from "../List";
+import List from "../HomePageFiles/List";
 
-import Offers from "../Offers";
-import SubHeader from "../SubHeader";
+import Offers from "../HomePageFiles/Offers";
+import SubHeader from "../HomePageFiles/SubHeader";
 import {
   ListBestdeal1,
   ListBestdeal2,
